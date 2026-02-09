@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    font-size: 18pt;
+}
+
+.content {
+    width: 100%;
+
+    flex-grow: 1;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#games-list {
+    width: 50%;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+#game-detail {
+    width: 50%;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.loading {
+    opacity: 0.5;
+}
