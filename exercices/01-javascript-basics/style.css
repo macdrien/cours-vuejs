@@ -1,0 +1,15 @@
+
+.main {
+    display: flex;
+}
+
+.buttons {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    background-color: red;
+    width: 50vw;
+}
